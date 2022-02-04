@@ -11,7 +11,7 @@ async function main() {
    <title>${title}</title>
  </head>
  <body>
-   <div>Halló heimur</div>
+   <div>Halló heimur, ég varð til klukkan ${new Date().toISOString()}</div>
  </body>
  </html> 
  `;
